@@ -10,10 +10,10 @@ def page1(request):
     return render(request, 'myproject/about.html')
 
 def page2(request):
-    return render(request, 'myproject/contacts.html')
-
-def page3(request):
     return render(request, 'myproject/service.html')
 
-def page4(request):
+def page3(request):
     return render(request, 'myproject/products.html')
+
+def page4(request):
+    return render(request, 'myproject/contacts.html')
