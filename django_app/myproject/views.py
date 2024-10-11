@@ -7,13 +7,13 @@ def index(request):
     return render(request, 'myproject/index.html')
 
 def page1(request):
-    return render(request, 'myproject/page1.html')
+    return render(request, 'myproject/about.html')
 
 def page2(request):
-    return render(request, 'myproject/page2.html')
+    return render(request, 'myproject/contacts.html')
 
 def page3(request):
-    return render(request, 'myproject/page3.html')
+    return render(request, 'myproject/service.html')
 
 def page4(request):
-    return render(request, 'myproject/page4.html')
+    return render(request, 'myproject/products.html')
